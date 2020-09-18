@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+case "$1" in
+    purge) rm -f /var/lib/influxdbv2 ;;
+esac

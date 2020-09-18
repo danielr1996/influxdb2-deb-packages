@@ -4,6 +4,8 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
+Environment="INFLUXD_BOLT_PATH=/var/lib/influxdb2/influxd.bolt"
+Environment="INFLUXD_ENGINE_PATH=/var/lib/influxdb2/engine"
 Type=simple
 ExecReload=/bin/kill -HUP $MAINPID
 ExecStart=/usr/bin/influxd
