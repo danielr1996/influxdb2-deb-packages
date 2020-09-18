@@ -3,10 +3,10 @@ Version: 2.0.0-beta.16
 Architecture: arm64
 Maintainer: Daniel Richter <danielrichter@posteo.de>
 Filename: ./influxdb_2.0.0-beta.16_arm64.deb
-Size: 32092080
-MD5sum: 6144007a86f7fea44104a7f8668198a2
-SHA1: c79bca359e4231d66e7df8f9f2034be79c211a81
-SHA256: 85c1fdbf608519e2ab9116f7b6231c6783ef3a048652fb73360bc7fb6a698736
+Size: 32093444
+MD5sum: 2af32922b656797351d790053362ed01
+SHA1: 2159c98b4c292511d09b978f4e0cd10a23ab2418
+SHA256: 0b4b60325527835f8ab8cfb2b3ca39c39973061cdc5f48b1056cf041a64324b7
 Section: database
 Priority: optional
 Description: InfluxDB Timeseries Database
