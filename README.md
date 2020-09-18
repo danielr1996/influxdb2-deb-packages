@@ -45,7 +45,7 @@ vagrant ssh
 Build the package with dpkg-deb and optionally lint it with lintian
 ```shell script
 fakeroot dpkg-deb --build /vagrant/src /vagrant/docs
-lintian
+lintian /vagrant/docs/influx*.deb
 ```
 
 The packaged deb file is now in the project root named influxdb_<version>_<arch>.deb.
