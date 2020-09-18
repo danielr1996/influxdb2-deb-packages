@@ -1,0 +1,7 @@
+Package: influxdb
+Version: 2.0.0-beta.16
+Section: database
+Priority: optional
+Architecture: arm64
+Maintainer: Daniel Richter <danielrichter@posteo.de>
+Description: InfluxDB Timeseries Database
